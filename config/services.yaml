@@ -1,0 +1,16 @@
+#parameters:
+
+services:
+  # Autowire all services in the app except Commands
+  App\:
+      resource: '../src/*'
+      exclude: '../src/Command'
+      autowire: true
+      public: false
+
+  # Autowire all Commands in the app, and make them public to allow for registering in the application
+  App\Command\:
+      resource: '../src/Command'
+      autowire: true
+      public: true
+      tags: [console.command]

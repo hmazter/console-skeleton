@@ -1,0 +1,37 @@
+{
+  "name": "hmazter/console-skeleton",
+  "description": "Skeleton for a console application with DI-container and yaml-config",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kristoffer Högberg",
+      "email": "krihog@gmail.com",
+      "homepage": "https://hmazter.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "symfony/console": "^4.0",
+    "symfony/dependency-injection": "^4.0",
+    "symfony/config": "^4.0",
+    "symfony/yaml": "^4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0",
+    "symfony/var-dumper": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit"
+  }
+}
