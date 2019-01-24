@@ -21,10 +21,26 @@ The skeleton can then be executed with:
 ./app
 ```
 
+### Running with docker
+
+Build the app with:
+```bash
+docker-compose build
+```
+
+And run the app with docker with this command:
+```bash
+docker-compose run console ./app
+```
+
+### Tests
+
 Tests can be run with:
 ```bash
 composer test
 ```
+
+### Continue building
 
 Go ahead and:
 * Edit/replace command in src/Commad/ExampleCommand
