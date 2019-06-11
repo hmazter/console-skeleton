@@ -1,6 +1,10 @@
 Console Skeleton
 ================
 
+[![Latest Stable Version](https://poser.pugx.org/hmazter/console-skeleton/v/stable)](https://packagist.org/packages/hmazter/console-skeleton)
+[![Total Downloads](https://poser.pugx.org/hmazter/console-skeleton/downloads)](https://packagist.org/packages/hmazter/console-skeleton)
+[![License](https://poser.pugx.org/hmazter/console-skeleton/license)](https://packagist.org/packages/hmazter/console-skeleton)
+
 Skeleton for a console application, including:
 * DI-Container
 * Services and commands [autowired in yaml-config](config/services.yaml)
