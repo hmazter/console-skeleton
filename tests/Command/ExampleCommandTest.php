@@ -23,6 +23,6 @@ class ExampleCommandTest extends TestCase
         $commandTester->execute(['command' => $command->getName()]);
 
         $output = $commandTester->getDisplay();
-        $this->assertContains('This is an example', $output);
+        $this->assertStringContainsString('This is an example', $output);
     }
 }
