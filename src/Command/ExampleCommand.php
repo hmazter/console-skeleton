@@ -25,5 +25,7 @@ class ExampleCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $output->writeln('This is an example, replace or edit me');
+
+        return 0;
     }
 }

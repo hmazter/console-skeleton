@@ -22,7 +22,8 @@ class ExampleCommandTest extends TestCase
         $commandTester = new CommandTester($command);
         $commandTester->execute(['command' => $command->getName()]);
 
+        self::assertEquals(0, $commandTester->getStatusCode());
         $output = $commandTester->getDisplay();
-        $this->assertStringContainsString('This is an example', $output);
+        self::assertStringContainsString('This is an example', $output);
     }
 }
