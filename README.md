@@ -10,6 +10,7 @@ Skeleton for a console application, including:
 * Services and commands [autowired in yaml-config](config/services.yaml)
 * [Example Command](src/Command/ExampleCommand.php)
 * [Example test](tests/Command/ExampleCommandTest.php)
+* [Phar Builder](https://github.com/clue/phar-composer)
 
 ## Getting started
 
@@ -24,6 +25,15 @@ The skeleton can then be executed with:
 ```bash
 ./app
 ```
+
+### Building distributable phar
+
+A phar-file that can be distributed can be built with:
+```bash
+composer build
+```
+
+This will output the phar-file in the project root, named `<project-directory-name>.phar`.
 
 ### Running with docker
 

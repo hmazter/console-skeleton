@@ -18,6 +18,7 @@
     "symfony/yaml": "^5.0"
   },
   "require-dev": {
+    "clue/phar-composer": "^1.1",
     "phpunit/phpunit": "^8.2",
     "symfony/var-dumper": "^5.0"
   },
@@ -31,8 +32,10 @@
       "Tests\\": "tests/"
     }
   },
+  "bin": ["./app"],
   "scripts": {
-    "test": "./vendor/bin/phpunit"
+    "test": "./vendor/bin/phpunit",
+    "build": "./vendor/bin/phar-composer build"
   },
   "config": {
     "sort-packages": true
