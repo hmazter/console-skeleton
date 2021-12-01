@@ -1,4 +1,4 @@
-FROM php:7.3-alpine
+FROM php:8.0-alpine
 
 RUN curl -o /usr/local/bin/composer https://getcomposer.org/composer.phar \
     && chmod +x /usr/local/bin/composer

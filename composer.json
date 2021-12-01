@@ -11,16 +11,16 @@
     }
   ],
   "require": {
-    "php": "^7.2",
-    "symfony/config": "^5.0",
-    "symfony/console": "^5.0",
-    "symfony/dependency-injection": "^5.0",
-    "symfony/yaml": "^5.0"
+    "php": "^8.0",
+    "symfony/config": "^5.4",
+    "symfony/console": "^5.4",
+    "symfony/dependency-injection": "^5.4",
+    "symfony/yaml": "^5.4"
   },
   "require-dev": {
-    "clue/phar-composer": "^1.1",
-    "phpunit/phpunit": "^8.2",
-    "symfony/var-dumper": "^5.0"
+    "clue/phar-composer": "dev-master",
+    "phpunit/phpunit": "^9.5",
+    "symfony/var-dumper": "^5.4"
   },
   "autoload": {
     "psr-4": {
