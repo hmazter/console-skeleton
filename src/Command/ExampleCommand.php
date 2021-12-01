@@ -16,16 +16,16 @@ class ExampleCommand extends Command
         // TODO: inject and initialize any services needed for the command here
     }
 
-    protected function configure()
+    protected function configure(): void
     {
         $this->setName('example')
             ->setDescription('Example command');
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $output->writeln('This is an example, replace or edit me');
 
-        return 0;
+        return self::SUCCESS;
     }
 }
