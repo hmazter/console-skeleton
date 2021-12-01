@@ -19,6 +19,7 @@
   },
   "require-dev": {
     "clue/phar-composer": "dev-master",
+    "phpstan/phpstan": "^1.2",
     "phpunit/phpunit": "^9.5",
     "symfony/var-dumper": "^5.4"
   },
@@ -35,7 +36,8 @@
   "bin": ["./app"],
   "scripts": {
     "test": "./vendor/bin/phpunit",
-    "build": "./vendor/bin/phar-composer build"
+    "build": "./vendor/bin/phar-composer build",
+    "analyse": "./vendor/bin/phpstan analyse"
   },
   "config": {
     "sort-packages": true
