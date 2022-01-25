@@ -54,6 +54,13 @@ Tests can be run with:
 composer test
 ```
 
+### Static Code analyse
+
+Code can be static analysed with [PHPStan](https://phpstan.org/):
+```bash
+composer analyse
+```
+
 ### Continue building
 
 Go ahead and:
