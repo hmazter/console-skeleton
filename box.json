@@ -1,0 +1,7 @@
+{
+    "force-autodiscovery": true,
+    "directories": [
+        "config"
+    ],
+    "files": []
+}

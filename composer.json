@@ -36,7 +36,7 @@
   "bin": ["./app"],
   "scripts": {
     "test": "./vendor/bin/phpunit",
-    "build": "./vendor/bin/phar-composer build",
+    "build": "./vendor/bin/box compile",
     "analyse": "./vendor/bin/phpstan analyse"
   },
   "config": {
