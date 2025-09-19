@@ -10,7 +10,7 @@ Skeleton for a console application, including:
 * Services and commands [autowired in yaml-config](config/services.yaml)
 * [Example Command](src/Command/ExampleCommand.php)
 * [Example test](tests/Command/ExampleCommandTest.php)
-* [Phar Builder](https://github.com/clue/phar-composer)
+* [Phar Builder](https://github.com/box-project/box)
 
 ## Getting started
 
@@ -66,5 +66,5 @@ composer analyse
 Go ahead and:
 * Edit/replace command in src/Commad/ExampleCommand
 * Add more commands in src/Command
-* Add additional classed that you need in src/
+* Add additional classes that you need in src/
 * Edit/replace the test in tests/Command/ExampleCommandTest
